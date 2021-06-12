@@ -1,7 +1,7 @@
 <template>
   <div class="character">
-      <h1> Game of Thrones Characters </h1>
-      <CharacterPage/>
+  
+      <CharacterPage title="Characters"/>
   
   </div>
 </template>

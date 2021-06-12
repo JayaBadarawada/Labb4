@@ -3,7 +3,6 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import CharacterPage from '../views/Character.vue'
-
 Vue.use(VueRouter)
 
 const routes = [
@@ -22,7 +21,8 @@ const routes = [
     path: '/character',
     name: 'CharacterPage',
     component: CharacterPage
-  }
+  },
+
 ]
 
 const router = new VueRouter({

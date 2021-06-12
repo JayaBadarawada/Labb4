@@ -1,12 +1,11 @@
 <template>
   <div class="about">
-    <h1> Game of Thrones Quotes</h1>
-    <AboutPage msg="Welcome"/>
+ 
+    <AboutPage txt="Quotes"/>
 
   </div>
 </template>
 <script>
-// @ is an alias to /src
 import AboutPage from '@/components/AboutPage.vue'
 
 
